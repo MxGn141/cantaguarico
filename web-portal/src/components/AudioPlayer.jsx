@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, Volume2, VolumeX } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const STREAM_URL = 'https://radio-cantaguarico.sibciguarico.online/cantaguarico';
+const STREAM_URL = 'https://admin-radio-cantaguarico.sibciguarico.online/cantaguarico';
 
 export default function AudioPlayer() {
     const [isPlaying, setIsPlaying] = useState(false);

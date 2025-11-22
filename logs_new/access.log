@@ -1,0 +1,4 @@
+172.22.0.1 - - [22/Nov/2025:17:10:10 +0000] "GET / HTTP/1.1" 200 1399 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" 0
+172.22.0.1 - - [22/Nov/2025:17:10:10 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" 0
+172.22.0.1 - - [22/Nov/2025:17:10:10 +0000] "GET /icecast.png HTTP/1.1" 200 5333 "http://localhost:8000/style.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" 0
+172.22.0.1 - - [22/Nov/2025:17:10:11 +0000] "GET /favicon.ico HTTP/1.1" 404 362 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" 0

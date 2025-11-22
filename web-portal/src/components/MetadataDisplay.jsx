@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Music } from 'lucide-react';
 
-const STATUS_URL = 'https://radio-cantaguarico.sibciguarico.online/status-json.xsl';
+const STATUS_URL = 'https://admin-radio-cantaguarico.sibciguarico.online/status-json.xsl';
 
 export default function MetadataDisplay() {
     const [metadata, setMetadata] = useState({ title: 'Radio Cantaguarico', artist: 'La voz de Guárico' });
