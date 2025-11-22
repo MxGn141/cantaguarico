@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  icecast:
+    image: infiniteproject/icecast:latest
+    container_name: radio-cantaguarico
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./icecast_new.xml:/etc/icecast.xml:ro
+      - ./logs_new:/var/log/icecast2
+    user: "1000:1000"
+
+  web:
+    build: ./web-portal
+    container_name: cantaguarico-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on:
+      - icecast
+
+
+
